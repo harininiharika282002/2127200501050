@@ -1,0 +1,40 @@
+import React from 'react';
+import moment from 'moment';
+const API_URL = 'http://104.211.219.98/train/auth/';
+  return (
+    <div>
+      <h1>Train Schedule</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Train Name</th>
+            <th>Departure</th>
+            <th>Arrival</th>
+          </tr>
+        </thead>
+        
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+const App = () => {
+  return (
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+          </ul>
+        </nav>
+
+        
+      </div>
+    </Router>
+  );
+};
+
