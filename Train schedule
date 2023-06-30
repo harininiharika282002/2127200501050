@@ -20,21 +20,6 @@ const API_URL = 'http://104.211.219.98/train/auth/';
   );
 };
 
-const App = () => {
-  return (
-    <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-          </ul>
-        </nav>
 
-        
-      </div>
-    </Router>
-  );
-};
+    
 
